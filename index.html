@@ -3,22 +3,163 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Brogar</title>
+    <title>Brogar Construction - Quality Construction. Honest Service.</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="container">
-        <header>
-            <h1>Welcome to Brogar</h1>
-        </header>
-        <main>
-            <p>This is your new web project!</p>
-            <button id="actionBtn">Click Me</button>
-        </main>
-        <footer>
-            <p>&copy; 2025 Brogar Project</p>
-        </footer>
-    </div>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">Brogar Construction</div>
+            <ul class="nav-menu">
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#work">Our Work</a></li>
+                <li><a href="#why-choose-us">Why Choose Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-headline">Quality Construction. Honest Service.</h1>
+            <p class="hero-subheadline">Residential and commercial work built with safety, craftsmanship, and transparency.</p>
+            <a href="#contact" class="btn btn-primary">Get a Free Quote</a>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Us</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Brogar Construction is a family-owned construction business dedicated to delivering exceptional results for both residential and commercial projects. We believe that great construction is built on three pillars: unwavering commitment to safety, superior craftsmanship, and clear communication with our clients.</p>
+                    <p>With years of experience in the industry, we treat every project as if it were our own home or business. From the initial consultation to the final walkthrough, we're committed to transparency, professionalism, and delivering work that exceeds expectations.</p>
+                </div>
+                <div class="about-image">
+                    <div class="image-placeholder">
+                        <span>Photo Coming Soon</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Our Work Section -->
+    <section id="work" class="work">
+        <div class="container">
+            <h2 class="section-title">Our Work</h2>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <div class="image-placeholder">
+                        <span>Project Image</span>
+                    </div>
+                    <p class="gallery-caption">Residential Renovation</p>
+                </div>
+                <div class="gallery-item">
+                    <div class="image-placeholder">
+                        <span>Project Image</span>
+                    </div>
+                    <p class="gallery-caption">Commercial Build</p>
+                </div>
+                <div class="gallery-item">
+                    <div class="image-placeholder">
+                        <span>Project Image</span>
+                    </div>
+                    <p class="gallery-caption">Kitchen Remodel</p>
+                </div>
+                <div class="gallery-item">
+                    <div class="image-placeholder">
+                        <span>Project Image</span>
+                    </div>
+                    <p class="gallery-caption">Bathroom Renovation</p>
+                </div>
+                <div class="gallery-item">
+                    <div class="image-placeholder">
+                        <span>Project Image</span>
+                    </div>
+                    <p class="gallery-caption">Office Space</p>
+                </div>
+                <div class="gallery-item">
+                    <div class="image-placeholder">
+                        <span>Project Image</span>
+                    </div>
+                    <p class="gallery-caption">Custom Home</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us Section -->
+    <section id="why-choose-us" class="why-choose-us">
+        <div class="container">
+            <h2 class="section-title">Why Choose Us</h2>
+            <div class="features-grid">
+                <div class="feature-item">
+                    <div class="feature-icon">✓</div>
+                    <h3>Licensed and Insured</h3>
+                    <p>Fully licensed and insured for your peace of mind</p>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon">✓</div>
+                    <h3>Clean Work Sites</h3>
+                    <p>We maintain organized and clean work environments</p>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon">✓</div>
+                    <h3>Transparent Pricing</h3>
+                    <p>Clear, honest quotes with no hidden fees</p>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon">✓</div>
+                    <h3>On-Time Delivery</h3>
+                    <p>Committed to meeting deadlines and schedules</p>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon">✓</div>
+                    <h3>Family-Friendly Team</h3>
+                    <p>Respectful professionals you can trust in your space</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Contact Us</h2>
+            <form id="contactForm" class="contact-form">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone</label>
+                    <input type="tel" id="phone" name="phone" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Brogar Construction. All rights reserved.</p>
+        </div>
+    </footer>
+
     <script src="script.js"></script>
 </body>
 </html>
